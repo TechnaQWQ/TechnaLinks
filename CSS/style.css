@@ -70,6 +70,7 @@
         border: 5px solid white;
         .image{
             height: auto;
+            width: auto;
         }
     }
  }
