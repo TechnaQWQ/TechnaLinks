@@ -27,6 +27,7 @@
     }
     .texto{
         margin: 40px;
+        font-size: 16px;
     }
 
 div{
@@ -105,4 +106,5 @@ div{
     border: 5px solid white;
     margin: 10px;
     list-style: none;
+     font-size: 16px;
  }
