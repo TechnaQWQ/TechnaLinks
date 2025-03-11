@@ -74,6 +74,16 @@
         }
     }
  }
+ @media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
 
  footer{
     background-color: pink;
