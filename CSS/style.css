@@ -13,7 +13,7 @@
         text-align: center;
         color: palevioletred;
         background-color: pink;
-        padding: 20px;
+        padding: 10px;
         width: 90%;
         max-width: 400px;
     }
@@ -25,15 +25,23 @@
         object-fit: cover;
         border: 5px dashed white;
     }
-    ul{
-        list-style: none;
-        font-family: Arial, Helvetica, sans-serif;
-        text-transform: uppercase;
-        li{
-            display: flex;
-            flex-direction: column;
-            margin: 15px;
-        }
+    .texto{
+        margin: 40px;
+    }
+
+div{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    gap: 40px;
+
+
         a{
             text-decoration: none;
             color: white;
@@ -52,8 +60,10 @@
             background-color: rgb(253, 156, 189);
             color: white;
         }
+
+        }
     }
- }
+}
  body {
     background-image: url('https://i.pinimg.com/736x/42/a2/59/42a25947d00a3f5dc7047384142168d0.jpg');
     background-size: cover;
@@ -94,4 +104,5 @@
     border-radius: 10px;
     border: 5px solid white;
     margin: 10px;
+    list-style: none;
  }
