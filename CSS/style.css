@@ -59,8 +59,8 @@
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
-    padding: 0;
-    margin: 0;
+    padding: auto;
+    margin: auto;
 
      @media (max-width: 768px) {
     .container {
