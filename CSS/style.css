@@ -8,7 +8,7 @@
     background-color: pink;
     border-radius: 10px;
     border: 5px solid white;
-
+    margin: 10px;
     .container{
         text-align: center;
         color: palevioletred;
