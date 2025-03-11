@@ -1,12 +1,11 @@
 ´{
-    margin: 10px;
+    margin: 0px;
 }
  header {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: pink;
-    border-radius: 10px;
     border: 5px solid white;
     margin: auto;
     .container{
