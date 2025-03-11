@@ -69,9 +69,8 @@
         border-radius: 10px;
         border: 5px solid white;
         .image{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
+            width: auto;
+            height: auto;
         }
     }
  }
