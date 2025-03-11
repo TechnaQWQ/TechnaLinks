@@ -61,6 +61,13 @@
     background-repeat: repeat-y;
     height: auto;
 
+     @media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 10px;
+    }
+
+
     P{
         background-color: palegoldenrod;
         display: flex;
@@ -75,12 +82,7 @@
         }
     }
  }
- @media (max-width: 768px) {
-    .container {
-        width: 95%;
-        padding: 10px;
-    }
-
+ 
     h1 {
         font-size: 20px;
     }
